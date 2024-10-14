@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand > img{
+    width: 130px;
+}
+
+li.nav-item {
+    padding: 0px 8px;
+}
+
+a.nav-link {
+    color: #2a2a2a !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+}
+
+a.nav-link:hover{
+    color: #1c446e !important;
+    letter-spacing: 0.4px;
+}
+
+button.btn.header-join {
+    padding: 8px 24px;
+    background: #1c446e;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Mulish';
+    margin: 0px 6px;
+}
+
+button.btn.header-login {
+    padding: 8px 24px;
+    background: #cb6e35;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Mulish';
+    margin: 0px 6px;
+}
+
+.carousel-indicators li {
+    width: 8px !important;
+    height: 8px !important;
+    background-color: #1c446e !important;
+    border: 2px solid #ffff !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 34px;
+    height: 34px;
+    background: 50%/100% 100% no-repeat;
+    background-color: #1c446e !important;
+    padding: 12px !important;
+    border-radius: 50px !important;
+}
+
+.carousel-control-next-icon {
+    background-size: 14px !important;
+}
+
+.carousel-control-prev-icon {
+    background-size: 14px !important;
+}
+
+.carousel-caption {
+    bottom: 100px !important;
+    background-color: #2a2a2a5d;
+    padding: 20px;
+}
+
+.carousel-caption > h5{
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1 !important;
+}
+
+h2.heading-title{
+    font-family: "Mulish", sans-serif;
+    padding: 40px 0px 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+td.td-2 {
+    color: blue;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+td.td-2 > small {
+    color: gray;
+    font-weight: 500;
+}
+
+td.td-4{
+    color: #000;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+}
+
+td.td-5{
+    color: #000;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+}
+
+td.td-6{
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+td.td-6 > span{
+    padding: 0px 12px;
+}
