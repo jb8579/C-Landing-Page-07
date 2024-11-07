@@ -4,6 +4,116 @@
     box-sizing: border-box;
 }
 
+.promotion-title {
+  text-align: center;
+  padding: 20px 0px;
+  font-family: "Roboto", serif;
+}
+
+.promotion-title > h1{
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.promotion-title > p{
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #818080;
+}
+
+.promotion-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 15px 25px;
+  text-align: center;
+  gap: 24px;
+}
+
+.promotion-card {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 1px 8px rgba(0,0,0,.1);
+  background: #1c446e;
+}
+
+.promotion-card > img{
+  width: 80px;
+}
+
+.promotion-card > h2 {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 25px 0px 15px 0px;
+  line-height: 38px;
+  font-family: "Roboto", serif;
+  color: #fff;
+}
+
+.promotion-card > h2 > span{
+  font-size: 22px;
+  font-style: italic;
+}
+
+.promotion-card > p{
+  font-family: "Roboto", serif;
+  color: #dbdada;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  word-spacing: 1px;
+  margin: 0px;
+}
+
+.promotion-card > a > button {
+  font-family: "Roboto", serif;
+  padding: 12px 30px;
+  background-color: #008fff;
+  color: #fff;
+  text-decoration: none;
+  outline: 0px;
+  border: 0px;
+  font-size: 18px;
+  border-radius: 50px;
+  font-weight: 500;
+  margin: 30px 0px 10px 0px;
+}
+
+.promotion-card.promotion-card-center {
+  position: relative;
+  left: 50%;
+  transform: translateX(0%);
+}
+
+
+
+.ribbon {
+  position: absolute;
+  z-index: 99;
+}
+
+.ribbon > img {
+  width: 64px;
+  position: relative;
+  left: -50px;
+  top: -50px;
+  z-index: -1;
+}
+
+.ribbon > p {
+  position: absolute;
+  top: -39px;
+  left: -23px;
+  font-weight: 700;
+  font-size: 19px;
+  color: #555555;
+}
+
 #disclaimer {
   overflow: hidden;
   float: center;
@@ -39,6 +149,30 @@
       line-height: 18px;
       word-spacing: 0px;
   }
+
+  .promotion-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 0px;
+  }
+
+  .promotion-card.promotion-card-center {
+    left: 0;
+}
+
+.promotion-card > img {
+  width: 70px;
+}
+
+.promotion-card > h2 {
+  font-size: 28px;
+  padding: 15px 0px 0px 0px;
+}
+
+.promotion-card > h2 > span {
+  font-size: 18px;
+  font-style: italic;
+}
 
   #disclaimer p img {
     position: relative;
